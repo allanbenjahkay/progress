@@ -1,5 +1,4 @@
-<?php
-?>
+<?php include('server.php') ?>
 
 <!DOCTYPE html>
 
@@ -12,7 +11,8 @@
 </head>
 <body>
   <div class="wrapper">
-    <form action="#">
+    <form action="index.php">
+    <?php include('errors.php'); ?>
       <h2>Login</h2>
         <div class="input-field">
         <input type="text" required>

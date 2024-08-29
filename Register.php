@@ -1,3 +1,4 @@
+<?php include('server.php') ?>
 <!DOCTYPE html>
 
 <html lang="en" dir="ltr">
@@ -10,12 +11,12 @@
 <body>
   <div class="wrapper">
     <h2>Registration</h2>
-    <form action="#">
+    <form action="register.php" method="post">
       <div class="input-box">
-        <input type="text" placeholder="Enter your name" required>
+        <input type="text" placeholder="Enter your name" value="<?php echo $name; ?>">
       </div>
       <div class="input-box">
-        <input type="text" placeholder="Enter your email" required>
+        <input type="text" placeholder="Enter your email" value="<?php echo $email; ?>">
       </div>
       <div class="input-box">
         <input type="password" placeholder="Create password" required>
@@ -26,10 +27,10 @@
       
       
       <div class="input-box button">
-        <input type="Submit" value="Register Now">
+        <input type="Submit" value="Register Now" name="reg_user">
       </div>
       <div class="text">
-        <h3>Already have an account? <a href="index.html">Login now</a></h3>
+        <h3>Already have an account? <a href="login.php">Login now</a></h3>
       </div>
     </form>
   </div>
