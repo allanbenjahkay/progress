@@ -47,6 +47,12 @@ h2 {
   color: #fff;
 }
 
+h3 {
+  font-size: 0.8rem;
+  margin-bottom: 9px;
+  color: #fff;
+}
+
 .input-field {
   position: relative;
   border-bottom: 2px solid #ccc;
@@ -76,8 +82,8 @@ h2 {
 
 .input-field input:focus~label,
 .input-field input:valid~label {
-  font-size: 0.8rem;
-  top: 10px;
+  font-size: 0.9rem;
+  top: 20px;
   transform: translateY(-120%);
 }
 
