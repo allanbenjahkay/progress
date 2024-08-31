@@ -12,16 +12,16 @@
   <div class="wrapper">
     <h2>Registration</h2>
     <form action="register.php" method="post">
-      <div class="input-box">
+      <div class="input-field">
         <input type="text" placeholder="Enter your name" value="<?php echo $name; ?>">
       </div>
-      <div class="input-box">
+      <div class="input-field">
         <input type="text" placeholder="Enter your email" value="<?php echo $email; ?>">
       </div>
-      <div class="input-box">
+      <div class="input-field">
         <input type="password" placeholder="Create password" required>
       </div>
-      <div class="input-box">
+      <div class="input-field">
         <input type="password" placeholder="Confirm password" required>
       </div>
       
