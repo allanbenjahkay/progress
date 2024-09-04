@@ -27,7 +27,7 @@
       
       
       <div class="input-box button">
-        <input type="Submit" value="Register Now" name="reg_user">
+        <button type="Submit" value="Register Now" name="reg_user"> Register Now </button>
       </div>
       <div class="text">
         <h3>Already have an account? <a href="login.php">Login now</a></h3>
